@@ -1,4 +1,4 @@
-# lsignal: C++ signal/slot system.
+# lsignal: C++ signal/slot class.
 
 lsignal (or lightweight signal) is a very little and fast C++ thread-safe implementation of signal and
 slot system which is based on modern C++11 code.
