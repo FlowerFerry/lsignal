@@ -74,7 +74,3 @@ foo f;
 s.connect([](){ ... }, &f);
 ```
 
-### Performance
-
-Synthetic test (one or more empty callbacks) showed that calling `lsignal` from two
-to five times faster than calling `boost::signal2` which was created with dummy (empty) mutex.
